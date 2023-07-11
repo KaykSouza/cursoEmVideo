@@ -48,19 +48,37 @@ figure.foto_legenda img {
     list-style: none;
     text-transform: uppercase;
     position: absolute;
-    top: 0px;
+    top: -20px;
     left: 300px;
 }
 
-#menu li {
+nav#menu li {
 
     display: inline-block;
-    background-color: lightgray;
+    background-color: #dddddd;
     padding: 10px;
     margin: 2px;
+    transition: opacity 1s; 
 }
 
-#menu h1 {
+nav#menu li :hover {
+
+    background-color: #606060;
+}
+
+nav#menu h1 {
 
     display: none;
+}
+
+nav#menu a {
+
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+
+    color: #ffffff;
+    text-decoration: underline;
 }
