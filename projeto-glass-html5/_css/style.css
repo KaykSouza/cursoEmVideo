@@ -37,3 +37,30 @@ figure.foto_legenda img {
 
     opacity: 1;
 }
+
+#menu {
+
+    display: block;
+}
+
+#menu ul {
+
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+}
+
+#menu li {
+
+    display: inline-block;
+    background-color: lightgray;
+    padding: 10px;
+    margin: 2px;
+}
+
+#menu h1 {
+
+    display: none;
+}
