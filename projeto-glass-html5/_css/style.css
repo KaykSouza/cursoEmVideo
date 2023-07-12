@@ -136,3 +136,31 @@ nav#menu a {
     color: #ffffff;
     text-decoration: underline;
 }
+
+#corpo {
+
+    display: block;
+    width: 1060px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 30px;
+    margin-right: 30px;
+}
+
+#lateral {
+
+    display: block;
+    width: 500px;
+    float: left;
+}
+
+#rodape {
+
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+#rodape p {
+
+    text-align: center;
+}
